@@ -1,0 +1,371 @@
+.body {
+
+}
+
+.bg_purple {
+     width: 1080px;
+    background-color: #DAA8E2;
+    margin: 0 auto;
+}
+.logo-container {
+    width:612px;
+    height:150px;
+    position:relative;
+    margin:0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 50%;
+    padding-left: 160px;
+    height: 100%;
+    width: 50%
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    background-color: hotpink;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: copperplate;
+    color: white;
+
+}
+
+
+.post_malone {
+    color: white;
+    font-family: Chuck;
+    padding-left: 420px;
+    
+}
+
+.bdy_purple {
+    background-color: #A25EB5;
+}
+
+.bg_orange {
+    background-color: #FDC99A;
+}
+
+.bdy_orange {
+     width: 1080px;
+    background-color: #FF9E18;
+    margin: 0 auto;
+}
+
+.bdy_yellow {
+    width: 1080px;
+    background-color: #FCDC3E;
+    margin: 0 auto;
+}
+
+.bg_yellow {
+    background-color: #FCECBB;
+}
+
+.bdy_blue{
+    width: 1080px;
+    background-color: #4CC8ED;
+    margin: 0 auto;
+}
+
+.bg_blue {
+    background-color: #A9E1EF;
+}
+
+.tour_dates_1 {
+    font-family: Serenity;
+    text-align: left;
+    margin-top: 250px;
+    padding-left: 400px;
+}
+
+.tour_dates_2 {
+    font-family: Serenity;
+    text-align: left;
+    margin-top: -270px;
+    padding-left: 400px;
+}
+
+.tour_dates_3 {
+    font-family: Serenity;
+    text-align: left;
+    margin-top: -350px;
+    padding-left: 400px;
+}
+
+
+
+
+.stoney_img {
+    position: absolute;
+    padding-left: 240px;
+    margin-top: -160px;
+    
+}
+
+.bbb_img {
+    padding-left: 240px;
+    padding-top: -500px;
+}
+
+.runaway_img {
+    padding-left: 240px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
+
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    margin-left: 145px;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 609px;
+    height: 420px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.heading {
+    margin-left: 435px;
+    font-family: Chuck;
+    color: hotpink;
+}
+
+.gal_heading {
+    font-family: Chuck;
+    color: hotpink;
+    padding-left: 460px;
+}
+
+.bio_paragraph_1 {
+    font-family: Gill Sans;
+    margin-right: 500px;
+    line-height: 25px;
+    padding: 0px;
+    padding-left: 50px;
+    float: left;
+    margin-top: -350px;
+}
+
+.bio_paragraph_2 {
+    font-family: Gill Sans;
+    margin-left: 450px;
+    line-height: 25px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-top: 600px
+}
+
+.bio_img_1 {
+    float: right;
+    height: 100%;
+    width: 60%;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.bio_img_2 {
+    height: 100%;
+    width: 30%;
+    margin-top: -500px;
+    margin-left: 60px;
+    margin-bottom: 45px;
+}
+
+
+.stoney_tour {
+    font-family: Chuck;
+    color: darkorange;
+    padding-left: 450px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    
+}
+
+.bbb_tour {
+    font-family: Chuck;
+    padding-left: 340px;
+    color: goldenrod;
+    padding-top: 100px;
+}
+
+.runaway_tour {
+    font-family: Chuck;
+    color: darkslateblue;
+    padding-left: 435px;
+    margin-top: 120px
+}
+
+.footer {
+    font-family: copperplate;
+    padding-left: 300px;
+    color: white
+}
+
+.gallery_1 {
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+    float: left;
+    padding-left: 190px
+}
+
+.gallery_2 {
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+    float: right;
+    padding-right: 190px
+}
+
+.gallery_3 {
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+
+    padding-left: 190px
+}
+
+.gallery_4 {
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+
+}
+
+.gallery_5 {
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+    float: left;
+
+}
+
+.gallery_6 {
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+    float:
+}
+
+
+
+
+
+
+
+
